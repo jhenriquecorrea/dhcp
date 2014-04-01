@@ -2,6 +2,10 @@
 
 Este projeto tem como intuito o monitoramento do serviço DHCP de uma máquina Debian 7.x Sever, para isto ele utiliza LAMP e DHCP com seguintes instrunções:
 
+## Features
+
+## Installation
+
 ```
 # apt-get install isc-dhcp-server
 ```
@@ -40,5 +44,6 @@ INTERFACES="eth0"
 ```
 # /etc/init.d/isc-dhcp-server start
 ```
----
-Projeto da Disciplina Desenvolvimento Web - IFPB
+
+## Support
+
