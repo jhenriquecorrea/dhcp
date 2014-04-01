@@ -3,7 +3,6 @@
 	require_once "getips.php";
 	$hosts = show();
 ?>
-
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -13,7 +12,6 @@
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 	<link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Marcellus+SC' rel='stylesheet' type='text/css'>
-
 	<style>
 		body, html {
 			height: 100%;
@@ -122,14 +120,12 @@
 				<?}?>
 			</table>
 		</fieldset>
-		<!-- <fieldset id="atualizacao"> -->
 		<fieldset id="atualizacao">
 			<h3>Verificando hosts on: <div id="loading"></div></h3>
 		</fieldset>
 		<fieldset id="hosts">
 			<h3>Verificando novas concessoes: <div id="carregando"></div></h3>
 		</fieldset>
-		<!-- </fieldset> -->
 	</section>
 </body>
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -179,6 +175,5 @@
 		setTimeout(atualizar, 10000);
 	}
 	atualizar();
-
 </script>
 </html>
