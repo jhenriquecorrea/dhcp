@@ -49,7 +49,7 @@ INTERFACES="eth0"
 
 ## License
 
-Copyright (c) 2014 Jo
+Copyright (c) 2014 João Henrique
 
 Licensed under the MIT.
 
