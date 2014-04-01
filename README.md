@@ -47,3 +47,9 @@ INTERFACES="eth0"
 
 ## Support
 
+## License
+
+Copyright (c) 2014 Jo
+
+Licensed under the MIT.
+
